@@ -19,6 +19,7 @@ export function ShoppingCart ({isOpen} : ShoppingCartProps) {
                     {cartItems.map(item => (
                         <CartItem  key={item.id} {...item}/>
                     ))}
+                    { cartItems.length > 0 && 
                     <div className="ms-auto fs-5 fw-bold">
                         Total: {" "}
                         {formatCurrency(cartItems.reduce((total, cartItem) => {
@@ -26,7 +27,7 @@ export function ShoppingCart ({isOpen} : ShoppingCartProps) {
                             return total + (item?.price || 0) * cartItem.quantity
                         }, 0)
                         )}
-                    </div>
+                    </div> }
                 </Stack>
             </Offcanvas.Body>
         </Offcanvas>
