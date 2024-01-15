@@ -3,7 +3,7 @@
       "id": 1,
       "name": "Book",
       "price": 10.99,
-      "imgUrl": "/images/banana.jpg"
+      "imgUrl": "/images/book.webp"
     },
     {
       "id": 2,
@@ -15,12 +15,24 @@
       "id": 3,
       "name": "Banana",
       "price": 1.05,
-      "imgUrl": "/images/cake.jpg"
+      "imgUrl": "/images/banana.jpg"
     },
     {
       "id": 4,
       "name": "Car",
-      "price": 14000,
+      "price": 85499,
+      "imgUrl": "/images/car.png"
+    },
+    {
+      "id": 5,
+      "name": "Cake",
+      "price": 25,
+      "imgUrl": "/images/cake.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Flower",
+      "price": 14,
       "imgUrl": "/images/flower.jpg"
     }
   ]
